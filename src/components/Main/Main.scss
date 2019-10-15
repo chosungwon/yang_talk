@@ -1,0 +1,57 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+
+.Header{
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  a{
+    text-decoration:none;
+    color: #000;
+  }
+}
+
+.Container{
+  display: flex;
+  flex-direction: row;
+
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #fce850;
+  width: 70%;
+  height: 170px;
+
+
+  margin: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+.Register{
+  font-size: 1.2rem;
+  width: 50%;
+  height: 170px;
+  text-align: center;
+}
+.Login{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  width: 50%;
+  height: 170px;
+  text-align: center;
+  button{
+    border: none;
+    font-size: 1.1rem;
+    margin: 4px;
+  }
+}
+
+}

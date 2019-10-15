@@ -1,0 +1,77 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+}
+
+
+.Header{
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  a{
+    text-decoration:none;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+  }
+}
+
+.Container{
+  display: flex;
+  flex-direction: row;
+
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #fce850;
+  width: 50%;
+  height: 200px;
+
+
+  margin: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+
+  .Register{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    width: 90%;
+    height: 200px;
+    form{
+      display: flex;
+      position: absolute;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      flex-direction: column;
+    };
+    .input_cl{
+
+      width: 97%;
+      height: 35px;
+      border:none;
+      left: 0;
+      right: 0;
+      font-size: 1.5rem;
+    }
+    .input_su{
+      position: absolute;
+      width: 99.3%;
+      height: 35px;
+      bottom: 10px;
+    }
+    button{
+      border: none;
+      font-size: 1.1rem;
+    }
+  }
+}
